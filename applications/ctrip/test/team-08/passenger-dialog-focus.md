@@ -19,3 +19,17 @@ Run the associated script using the team README. [Script](navigation-accessibili
 ## Observed Output
 
 The second Shift+Tab moves focus to **Fee details** in the background. **Add passenger** stays open.
+
+### Screenshots
+
+**1. The Add passenger modal opens with both passenger fields**
+
+![The Add passenger modal opens with both passenger fields](assets/passenger-dialog-focus-open-dialog.png)
+
+**2. The first Shift+Tab focuses Close dialog**
+
+![The first Shift+Tab focuses Close dialog](assets/passenger-dialog-focus-focus-inside.png)
+
+**3. The second Shift+Tab moves focus behind the still-open dialog**
+
+![The second Shift+Tab moves focus behind the still-open dialog](assets/passenger-dialog-focus-focus-outside.png)

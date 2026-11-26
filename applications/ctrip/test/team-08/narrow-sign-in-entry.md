@@ -29,4 +29,12 @@ node applications/ctrip/test/team-08/navigation-accessibility.cjs $ctripUrl narr
 
 Chromium finds one combined link at 1280 pixels and zero at 390 pixels. Separate **Log in** and **Register** links are still available.
 
-[390-pixel homepage screenshot](assets/narrow-sign-in-entry.png)
+### Screenshots
+
+**1. Desktop control at 1280 pixels with the combined link**
+
+![Desktop control at 1280 pixels with the combined link](assets/narrow-sign-in-entry-desktop.png)
+
+**2. Phone-width result at 390 pixels with separate Log in and Register links**
+
+![Phone-width result at 390 pixels with separate Log in and Register links](assets/narrow-sign-in-entry.png)

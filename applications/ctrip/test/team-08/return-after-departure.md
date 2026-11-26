@@ -29,4 +29,16 @@ node applications/ctrip/test/team-08/journey-dates.cjs $ctripUrl earlier-return
 
 Departure reads July 26 and return remains July 25.
 
-[Screenshot of the invalid date pair](assets/return-after-departure.png)
+### Screenshots
+
+**1. The return calendar opens after choosing July 21 as departure**
+
+![The return calendar opens after choosing July 21 as departure](assets/return-after-departure-return-picker.png)
+
+**2. The form shows a valid July 21–25 round trip**
+
+![The form shows a valid July 21–25 round trip](assets/return-after-departure-valid-trip.png)
+
+**3. After changing departure to July 26, the form still shows July 25 as return and displays −1 days**
+
+![After changing departure to July 26, the form still shows July 25 as return and displays −1 days](assets/return-after-departure.png)

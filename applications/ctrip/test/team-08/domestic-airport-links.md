@@ -29,4 +29,20 @@ node applications/ctrip/test/team-08/airport-city-links.cjs $ctripUrl
 
 Chengdu opens Chengdu Tianfu Airport. Chongqing and Changchun both open Beijing Capital Airport. The two incorrect destinations are treated as one finding.
 
-[Screenshot of the Beijing page after clicking Changchun](assets/domestic-airport-links.png)
+### Screenshots
+
+**1. The domestic directory shows Chengdu, Chongqing, and Changchun under C**
+
+![The domestic directory shows Chengdu, Chongqing, and Changchun under C](assets/domestic-airport-links-directory.png)
+
+**2. Chengdu correctly opens Chengdu Tianfu Airport**
+
+![Chengdu correctly opens Chengdu Tianfu Airport](assets/domestic-airport-links-chengdu.png)
+
+**3. Chongqing opens Beijing Capital Airport**
+
+![Chongqing opens Beijing Capital Airport](assets/domestic-airport-links-chongqing.png)
+
+**4. Changchun also opens Beijing Capital Airport**
+
+![Changchun also opens Beijing Capital Airport](assets/domestic-airport-links.png)

@@ -29,4 +29,16 @@ node applications/ctrip/test/team-08/journey-dates.cjs $ctripUrl past-monthly-fa
 
 The results departure calendar disables July 18. Monthly fares accepts it and changes the results URL to July 18.
 
-[Screenshot after selecting July 18](assets/past-monthly-fare.png)
+### Screenshots
+
+**1. The results departure calendar disables July 18**
+
+![The results departure calendar disables July 18](assets/past-monthly-fare-departure-picker.png)
+
+**2. Monthly fares offers July 18**
+
+![Monthly fares offers July 18](assets/past-monthly-fare-monthly-picker.png)
+
+**3. The results show July 18 after it was selected through Monthly fares**
+
+![The results show July 18 after it was selected through Monthly fares](assets/past-monthly-fare.png)

@@ -29,4 +29,16 @@ node applications/ctrip/test/team-08/saved-information.cjs $ctripUrl invoice-ide
 
 Two records with the same isolated title and taxpayer ID remain after reload. The records stay in the local test instance.
 
-[Screenshot of the duplicated title after reload](assets/duplicate-invoice-identity.png)
+### Screenshots
+
+**1. The company title and taxpayer ID before the first save**
+
+![The company title and taxpayer ID before the first save](assets/duplicate-invoice-identity-invoice-form.png)
+
+**2. One matching invoice title after the first save**
+
+![One matching invoice title after the first save](assets/duplicate-invoice-identity-first-save.png)
+
+**3. Two matching records after the second save and reload**
+
+![Two matching records after the second save and reload](assets/duplicate-invoice-identity.png)

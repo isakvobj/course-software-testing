@@ -29,4 +29,16 @@ node applications/ctrip/test/team-08/booking-boundaries.cjs $ctripUrl contact-al
 
 The page displays “Enter a valid contact mobile number” outside **Contact information**. The region contains zero alerts.
 
-[Screenshot showing the alert by the submit controls](assets/invalid-contact-region.png)
+### Screenshots
+
+**1. JD5162 Economy fare is open on the results page**
+
+![JD5162 Economy fare is open on the results page](assets/invalid-contact-region-flight-fare.png)
+
+**2. The booking form contains valid passenger data and contact mobile 123**
+
+![The booking form contains valid passenger data and contact mobile 123](assets/invalid-contact-region-completed-form.png)
+
+**3. The submitted form displays the mobile alert by Submit order, outside Contact information**
+
+![The submitted form displays the mobile alert by Submit order, outside Contact information](assets/invalid-contact-region.png)

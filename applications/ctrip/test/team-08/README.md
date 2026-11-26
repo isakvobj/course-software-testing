@@ -57,7 +57,7 @@ Scripts with multiple cases use separate browser contexts for each case. The air
 
 ## Screenshot evidence
 
-The seven shortlisted black-box write-ups each link an actual-result screenshot captured in Chromium against an isolated local course instance. The screenshots are in `assets/`. The Playwright assertions provide the labels, record counts, and navigation context used to establish each failure.
+Each black-box write-up embeds a captioned sequence of screenshots from the key steps through the observed result. Chromium captured the images against isolated local course instances. The PNGs are in `assets/`, and the Playwright assertions provide the exact labels, record counts, and navigation context.
 
 ## Submission rules
 

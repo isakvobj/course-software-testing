@@ -30,4 +30,20 @@ node applications/ctrip/test/team-08/order-lifecycle.cjs $ctripUrl duplicate-sub
 
 The cashier opens, and **Orders** contains two new order numbers instead of one. Both orders are left in the local test instance.
 
-[Screenshot of the two new orders](assets/duplicate-booking-submit.png)
+### Screenshots
+
+**1. The order list before the booking attempt**
+
+![The order list before the booking attempt](assets/duplicate-booking-submit-orders-before.png)
+
+**2. The completed form before double-clicking Submit order**
+
+![The completed form before double-clicking Submit order](assets/duplicate-booking-submit-booking-form.png)
+
+**3. The cashier opens for one newly created order**
+
+![The cashier opens for one newly created order](assets/duplicate-booking-submit-cashier.png)
+
+**4. The order list now contains two new pending orders**
+
+![The order list now contains two new pending orders](assets/duplicate-booking-submit.png)

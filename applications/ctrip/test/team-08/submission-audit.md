@@ -24,6 +24,6 @@ The shortlisted cases check distinct outcomes. The saved-information cases add i
 
 ## Local verification
 
-All ten shortlisted cases reproduced individually in Chromium on a fresh local course instance. The seven black-box cases link actual-result PNGs under `assets/`. The three white-box write-ups link their source paths and executable Playwright evidence. The team index lists both members, the design method for every case, dependencies, independent run commands, and the PR title format. Each case document includes the expected and observed output, reproduction steps, and closest baseline tests.
+All ten shortlisted cases reproduced individually in Chromium on a fresh local course instance. The seven shortlisted black-box write-ups embed screenshot sequences from `assets/`. The three white-box write-ups link their source paths and executable Playwright evidence. The team index lists both members, the design method for every case, dependencies, independent run commands, and the PR title format. Each case document includes the expected and observed output, reproduction steps, and closest baseline tests.
 
 The verified changes are local to Team 08. Finishing the course submission requires committing the selected cases and their evidence, pushing the branch, and opening a PR against upstream `main` with links to the selected write-ups. The course README lists the deadline as November 25, 2026 at 00:00 Asia/Shanghai. [Course submission instructions](../../../../README.md#submission--bonus)

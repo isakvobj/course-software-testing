@@ -19,3 +19,13 @@ Run the associated script with the dependency and command instructions in the te
 ## Observed Output
 
 The timer reaches `00:00` and **Pay now** stays enabled. This check covers browser behavior. It does not establish server-side cancellation behavior.
+
+### Screenshots
+
+**1. The unpaid cashier opens with time remaining**
+
+![The unpaid cashier opens with time remaining](assets/cashier-expiry-active-timer.png)
+
+**2. The timer reaches 00:00 while Pay now stays enabled**
+
+![The timer reaches 00:00 while Pay now stays enabled](assets/cashier-expiry-expired-timer.png)

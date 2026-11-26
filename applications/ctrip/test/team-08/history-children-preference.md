@@ -24,3 +24,17 @@ Run the associated script using the team README. [Script](search-and-order-state
 ## Observed Output
 
 The reopened results omit **Children included**.
+
+### Screenshots
+
+**1. The initial search results show Children included**
+
+![The initial search results show Children included](assets/history-children-preference-initial-results.png)
+
+**2. The homepage offers the saved Chengdu–Guangzhou search**
+
+![The homepage offers the saved Chengdu–Guangzhou search](assets/history-children-preference-history-entry.png)
+
+**3. Reopening the search drops Children included**
+
+![Reopening the search drops Children included](assets/history-children-preference-reopened-results.png)
