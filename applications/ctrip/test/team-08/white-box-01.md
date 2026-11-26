@@ -1,29 +1,25 @@
 # White-box test 01 (draft)
 
-## Test method and design basis
+Use `REQ-<ID> Test: <behavior>` for the completed case title.
 
-Identify the source file and the condition, branch, or path under test. Explain how the selected inputs reach it.
+## Description
 
-## Requirement reference
+Summarize the discrepancy in one or two sentences.
 
-List the applicable Ctrip requirement IDs.
+## Requirement: Expected Output
 
-## Difference from existing tests
+List the applicable Ctrip requirement IDs and state the expected result and its basis in the reference system.
 
-Identify the baseline cases reviewed and explain what this test adds.
+## Test description
 
-## Preconditions and reproduction steps
+This is a white-box test. Identify the source file and the condition, branch, or path under test. Explain how the selected inputs reach it.
 
-Specify the starting state and test data. List the exact actions in order.
+Name the closest baseline cases and explain what this case adds.
 
-## Expected behavior
+Identify the test framework, link the test script, and give its dependencies and exact run command. Specify the initial state and test data, then list the reproduction steps in order.
 
-Describe the expected result and its basis in the reference system.
-
-## Actual behavior
+## Observed Output
 
 Record the observed result in the course implementation and how it differs.
 
-## Evidence
-
-Link supporting screenshots, logs, or scripts. For a script, list its dependencies and exact run command.
+Link any supporting screenshots or logs here.
