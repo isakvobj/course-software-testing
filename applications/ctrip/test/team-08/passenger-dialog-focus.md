@@ -14,7 +14,7 @@ Black-box Playwright test. Start signed out and search Chengdu to Guangzhou for 
 
 The REQ-3.4 baseline verifies that the dialog and both fields are visible. This case checks keyboard behavior after the dialog opens. The earlier Team 08 booking cases check contact feedback placement and payment expiry. [Baseline REQ-3.4](../baseline/REQ-3.4.spec.ts)
 
-Run the associated script using the team README. [Script](navigation-accessibility.cjs) · [Run instructions](README.md#run-the-scripts)
+Run `node applications/ctrip/test/team-08/navigation-accessibility.cjs $ctripUrl passenger-dialog-focus` from the repository root. [Test script](navigation-accessibility.cjs) · [Setup](README.md#run-the-scripts)
 
 ## Observed Output
 

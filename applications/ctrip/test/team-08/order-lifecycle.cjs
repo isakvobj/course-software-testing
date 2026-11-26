@@ -87,33 +87,23 @@ const cases = {
 }
 
 async function main() {
-  const names = selectedCase ? [selectedCase] : Object.keys(cases)
-  if (names.some(name => !Object.hasOwn(cases, name))) {
+  if (!Object.hasOwn(cases, selectedCase)) {
     throw new Error(`Choose a case: ${Object.keys(cases).join(', ')}`)
   }
   const browser = await chromium.launch()
   try {
-    for (const name of names) {
-      const page = await browser.newPage({ timezoneId: 'Asia/Shanghai' })
-      page.setDefaultTimeout(5000)
-      try {
-        await page.clock.install({ time: new Date('2026-07-19T08:00:00+08:00') })
-        await signIn(page)
-        await cases[name](page)
-        console.log(`PASS ${name}`)
-      } catch (error) {
-        process.exitCode = 1
-        console.error(`${error instanceof assert.AssertionError ? 'FAIL' : 'ERROR'} ${name}\n${error.message}`)
-      } finally {
-        await page.close()
-      }
-    }
+    const page = await browser.newPage({ timezoneId: 'Asia/Shanghai' })
+    page.setDefaultTimeout(5000)
+    await page.clock.install({ time: new Date('2026-07-19T08:00:00+08:00') })
+    await signIn(page)
+    await cases[selectedCase](page)
+    console.log(`PASS ${selectedCase}`)
   } finally {
     await browser.close()
   }
 }
 
 main().catch(error => {
-  console.error(error)
+  console.error(`${error instanceof assert.AssertionError ? 'FAIL' : 'ERROR'} ${selectedCase}\n${error.message}`)
   process.exitCode = 1
 })

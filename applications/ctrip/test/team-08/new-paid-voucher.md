@@ -28,3 +28,8 @@ node applications/ctrip/test/team-08/order-lifecycle.cjs $ctripUrl new-paid-vouc
 ## Observed Output
 
 The cashier confirms payment for the newly created order. **Pending vouchers** shows the seeded eligible order and omits the newly paid one.
+
+```text
+FAIL new-paid-voucher
+Pending vouchers shows the equivalent seeded order but omits newly paid CTRIP20260719410
+```

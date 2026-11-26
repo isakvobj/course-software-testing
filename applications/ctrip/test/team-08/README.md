@@ -53,7 +53,7 @@ node applications/ctrip/test/team-08/order-lifecycle.cjs $ctripUrl new-paid-vouc
 node applications/ctrip/test/team-08/airport-city-links.cjs $ctripUrl
 ```
 
-Scripts with multiple cases use separate browser contexts for each case. The airport script checks three city links as one case. A failed assertion gives exit status 1. All scripts use the course clock of July 19, 2026 in Asia/Shanghai.
+Scripts with multiple cases require a case ID and run only that case. The airport script checks three city links as one case. A failed assertion gives exit status 1. All scripts use the course clock of July 19, 2026 in Asia/Shanghai.
 
 ## Screenshot evidence
 
@@ -72,3 +72,5 @@ Use the [baseline coverage guide](baseline-coverage.md) to find similar tests. C
 ## Pull request format
 
 Use `[Ctrip][Team 08] Add fault-revealing tests` as the PR title. In the body, link each case document and summarize each finding under `REQ-<ID> Test: <behavior>`, following the four headings in the linked case documents.
+
+The draft PR body lists the ten shortlisted cases and includes the interpretation behind the outcomes that depend on it. [Draft PR body](pr-description.md)

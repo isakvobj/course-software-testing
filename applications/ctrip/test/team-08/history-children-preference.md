@@ -19,7 +19,7 @@ Black-box Playwright test. Start signed out in a fresh browser context under the
 
 The REQ-2.5 baseline checks the initial results. The REQ-2.6 baseline reopens the seeded route and date. This case creates a search with a preference through the UI and reopens it. [Baseline REQ-2.5](../baseline/REQ-2.5.spec.ts) · [Baseline REQ-2.6](../baseline/REQ-2.6.spec.ts)
 
-Run the associated script using the team README. [Script](search-and-order-state.cjs) · [Run instructions](README.md#run-the-scripts)
+Run `node applications/ctrip/test/team-08/search-and-order-state.cjs $ctripUrl history-children` from the repository root. [Test script](search-and-order-state.cjs) · [Setup](README.md#run-the-scripts)
 
 ## Observed Output
 

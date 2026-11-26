@@ -30,3 +30,8 @@ node applications/ctrip/test/team-08/search-and-order-state.cjs $ctripUrl order-
 ## Observed Output
 
 The same unpaid order regained 15 seconds after the filter changed.
+
+```text
+FAIL REQ-4.2 — Changing order tabs must preserve elapsed countdown time
+The same order gained 15 seconds after changing the status filter
+```

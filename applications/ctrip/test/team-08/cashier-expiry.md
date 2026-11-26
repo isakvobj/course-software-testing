@@ -14,7 +14,7 @@ Black-box Playwright test. Start from the signed-out homepage on the course cloc
 
 The baseline checks a positive initial timer and the cancellation reminder. REQ-4.4 checks that a timer decreases. This test reaches zero. [Baseline REQ-3.8](../baseline/REQ-3.8.spec.ts)
 
-Run the associated script with the dependency and command instructions in the team README. [Script](booking-boundaries.cjs) · [Run instructions](README.md#run-the-scripts)
+Run `node applications/ctrip/test/team-08/booking-boundaries.cjs $ctripUrl cashier-expiry` from the repository root. [Test script](booking-boundaries.cjs) · [Setup](README.md#run-the-scripts)
 
 ## Observed Output
 

@@ -55,13 +55,13 @@ const cases = [
 async function main() {
   const caseIds = ['order-countdown', 'history-children']
   const selected = process.argv[3]
-  if (selected && !caseIds.includes(selected)) {
+  if (!caseIds.includes(selected)) {
     throw new Error(`Choose a case: ${caseIds.join(', ')}`)
   }
   const browser = await chromium.launch()
   try {
     for (const [index, [name, run]] of cases.entries()) {
-      if (selected && selected !== caseIds[index]) continue
+      if (selected !== caseIds[index]) continue
       const page = await browser.newPage({ timezoneId: 'Asia/Shanghai' })
       page.setDefaultTimeout(5000)
       try {

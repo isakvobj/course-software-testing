@@ -29,3 +29,10 @@ node applications/ctrip/test/team-08/saved-information.cjs $ctripUrl latest-addr
 ## Observed Output
 
 The URL stays on the Beijing address, but **Address details** changes to the Shanghai recipient. The two test addresses stay in the local test instance.
+
+```text
+FAIL latest-address
+The earlier lookup replaced the currently selected address
++ 'Team 08 Shanghai 48ba7731'
+- 'Team 08 Beijing 48ba7731'
+```
